@@ -1,55 +1,132 @@
-body {
-  background-color: #eaeaea; }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-.container--padding {
-  background-color: white;
-  padding: 20px;
-  margin-top: 1vh; }
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
-.text--main {
-  color: #73bf9f; }
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
-.text--link {
-  margin-bottom: 10px; }
+th {
+  cursor: pointer;
+}
 
-.star--checked {
-  color: orange;
-  font-size: 10px; }
-
-.star--unchecked {
-  font-size: 10px;
-  text-shadow: 0 0 3px orange;
-  color: white; }
-
-.star--border {
-  box-shadow: 0 0 0 0.8px rgba(14, 13, 13, 0.51);
-  padding: 5px 5px;
-  margin: 5px 5% 0 5px;
-  text-align: center;
-  font-size: 15px;
-  border-radius: 50px; }
-
-.emoji {
-  margin: 1% 5px;
-  vertical-align: middle;
-  font-size: 20px; }
-  .emoji--smile {
-    color: green; }
-
-.border--green {
-  color: green;
-  box-shadow: 0 0 0 0.8px green; }
-
-.border--red {
+th:hover {
   color: red;
-  box-shadow: 0 0 0 0.8px red; }
+}
 
-@media only screen and (max-width: 800px) {
-  #description {
-    display: flex;
-    justify-content: center; } }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-#my--button {
-  color: #95b9c1;
-  padding: 10px;
-  margin-top: 10px; }
+h2 {
+  margin-top: 0 !important;
+}
+
+#crypto-table {
+  margin-top: 10%;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+.active {
+  background-color: #ffa726 !important;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination li {
+  flex: 1 1 0;
+  width: 0;
+}
+
+.pagination li a {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dataSet {
+  display: none;
+}
+
+.loading {
+  display: flex;
+  margin-top: 300px;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+}
+
+.search__field {
+  display: flex;
+  place-content: center;
+}
+
+#search {
+  margin-top: 50px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+tr:hover {
+  background: #dfdfdf;
+}
+
+#clean {
+  padding: 0px;
+}
+
+#clean {
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  border: none;
+  background: #333;
+  border: 1px solid #333;
+  color: white;
+}
+
+#clean:hover {
+  background: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.pagination {
+  padding: 0px;
+}
+
+.main:hover {
+  background-color: transparent !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  min-width: 600px;
+}
