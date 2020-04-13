@@ -97,6 +97,7 @@ tr:hover {
   background-color: transparent !important; }
 
 .container {
-  margin: 0 auto;
-  max-width: 1080px;
-  min-width: 600px; }
+  margin: 0 auto; }
+
+.tab {
+  overflow-x: auto; }
